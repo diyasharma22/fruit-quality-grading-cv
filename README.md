@@ -179,7 +179,8 @@ The folder layout (`data/<root>/<fruit>/<condition>/*.jpg`) matches the Mendeley
 
 ## 📷 Screenshots
 
-_Add a sample annotated output image here, e.g. `outputs/apple_rotten_img_000_graded.jpg`._
+<img width="300" height="300" alt="apple_rotten_img_000_graded" src="https://github.com/user-attachments/assets/c34af2d9-c9b0-402a-ae25-05b5a988f6e2" />
+
 
 ## 🔮 Future Enhancements
 
