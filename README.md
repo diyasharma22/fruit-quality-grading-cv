@@ -27,7 +27,7 @@ Each processed image also gets an annotated output image (fruit outline, blemish
 
 ## 🧰 Technologies / Tools Used
 
-- Python 3.13
+- Python 3.10+
 - OpenCV (`opencv-python`) — image processing
 - scikit-learn — PCA, KNN, StandardScaler, train/test split
 - NumPy
@@ -179,7 +179,7 @@ The folder layout (`data/<root>/<fruit>/<condition>/*.jpg`) matches the Mendeley
 
 ## 📷 Screenshots
 
-_Add a sample annotated output image here, e.g. `outputs/apple_rotten_img_000_graded.jpg`._
+![alt text](apple_rotten_img_000_graded.jpg) 
 
 ## 🔮 Future Enhancements
 
