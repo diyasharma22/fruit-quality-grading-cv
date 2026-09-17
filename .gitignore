@@ -6,3 +6,4 @@ logs/
 models/*.joblib
 data/sample/
 .pytest_cache/
+preview*.jpg
