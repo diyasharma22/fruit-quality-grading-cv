@@ -179,8 +179,7 @@ The folder layout (`data/<root>/<fruit>/<condition>/*.jpg`) matches the Mendeley
 
 ## 📷 Screenshots
 
-![alt text](apple_rotten_img_000_graded.jpg) 
-
+<img width="300" height="300" alt="apple_rotten_img_000_graded" src="apple_rotten_img_000_graded.jpg" />
 ## 🔮 Future Enhancements
 
 - Replace KNN with a small CNN once a real labelled dataset is available
