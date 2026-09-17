@@ -39,23 +39,25 @@ a small visible blemish area can land as "Medium" quality while still
 being correctly classified as "rotten" in origin.
 
 ## Project structure
-fruit-quality-grader/
-├── main.py # CLI entrypoint: grade a single image
-├── config.py # All tunable parameters in one place
-├── src/
-│ ├── preprocessing.py # Module 1
-│ ├── segmentation.py # Module 2
-│ ├── features.py # Module 3
-│ ├── classifier.py # Module 4
-│ └── report.py # Module 5
-├── tools/
-│ ├── generate_sample_dataset.py # Synthetic dataset generator
-│ └── build_dataset.py # Builds feature matrix + fits PCA
-├── data/sample/ # Generated synthetic images (gitignored)
-├── models/ # Trained PCA + KNN bundle (gitignored)
-├── outputs/ # Annotated graded images (gitignored)
-└── tests/ # Unit tests
 
+```text
+fruit-quality-grader/
+  main.py                        CLI entrypoint: grade a single image
+  config.py                      All tunable parameters in one place
+  src/
+    preprocessing.py             Module 1
+    segmentation.py              Module 2
+    features.py                  Module 3
+    classifier.py                Module 4
+    report.py                    Module 5
+  tools/
+    generate_sample_dataset.py   Synthetic dataset generator
+    build_dataset.py             Builds feature matrix + fits PCA
+  data/sample/                   Generated synthetic images (gitignored)
+  models/                        Trained PCA + KNN bundle (gitignored)
+  outputs/                       Annotated graded images (gitignored)
+  tests/                         Unit tests
+```
 
 ## Setup
 
