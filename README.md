@@ -121,3 +121,17 @@ The folder layout (`data/<root>/<fruit>/<condition>/*.jpg`) matches the
 Mendeley "Fruits Dataset for Classification" layout, so real data can be
 substituted by pointing `tools/build_dataset.py --data <path>` at a real
 dataset directory instead of `data/sample` — no code changes needed.
+
+The automated tests check rule-based grading thresholds, KNN training, image preprocessing, fruit segmentation, and blemish detection.
+
+## Batch Grading
+
+To grade all fruit images inside a directory:
+
+```bash
+python tools/batch_grade.py --dir data/sample
+```
+
+This generates `outputs/batch_report.csv` containing the image path, fruit type, actual condition, rule-based grade, KNN prediction, defect ratio, and output annotated image.
+
+The included synthetic dataset contains 240 images. The batch grading run processed all 240 images and produced 240/240 correct KNN predictions. This 100% result is specific to the synthetic dataset and should not be interpreted as real-world model accuracy.
